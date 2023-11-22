@@ -1,21 +1,15 @@
-/**
-* Template Name: Selecao
-* Updated: Sep 18 2023 with Bootstrap v5.3.2
-* Template URL: https://bootstrapmade.com/selecao-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+:root {
+  --first-color: #004180;
+  --sec-color: #464646;
+}
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
+  color: var(--sec-color);
 }
 
 a {
-  color: #ef6603;
+  color: var(--first-color);
   text-decoration: none;
 }
 
@@ -43,7 +37,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #ef6603;
+  background: var(--first-color);
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -162,7 +156,8 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  background: #ef6603;
+  background: white;
+  color: var(--first-color);
 }
 
 .navbar .dropdown ul {
@@ -176,7 +171,7 @@ h6 {
   opacity: 0;
   visibility: hidden;
   background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  box-shadow: 0px 0px 30px rgba(134, 161, 127, 0.25);
   transition: 0.3s;
   border-radius: 15px;
 }
@@ -187,7 +182,7 @@ h6 {
 
 .navbar .dropdown ul a {
   padding: 10px 20px;
-  color: #2a2c39;
+  color: var(--first-color);
   margin: 0 5px;
   font-size: 14px;
 }
@@ -345,7 +340,7 @@ h6 {
   width: 100%;
   overflow: hidden;
   position: relative;
-  background: linear-gradient(0deg, rgb(42, 44, 57) 0%, rgb(51, 54, 74) 100%);
+  background: linear-gradient(0deg, rgb(130, 132, 146)  0%, rgb(0, 65, 128)  100%);
   padding: 0;
 }
 
@@ -401,11 +396,11 @@ h6 {
   margin: 10px;
   color: #fff;
   animation-delay: 0.8s;
-  border: 2px solid #ef6603;
+  border: 2px solid var(--first-color);
 }
 
 #hero .btn-get-started:hover {
-  background: #ef6603;
+  background: var(--first-color);
   color: #fff;
   text-decoration: none;
 }
@@ -557,7 +552,7 @@ section {
   left: 0;
   top: 2px;
   font-size: 20px;
-  color: #ef6603;
+  color: var(--first-color);
   line-height: 1;
 }
 
@@ -575,14 +570,14 @@ section {
   border-radius: 5px;
   transition: 0.3s;
   line-height: 1;
-  color: #ef6603;
+  color: var(--first-color);
   animation-delay: 0.8s;
   margin-top: 6px;
-  border: 2px solid #ef6603;
+  border: 2px solid var(--first-color);
 }
 
 .about .content .btn-learn-more:hover {
-  background: #ef6603;
+  background: var(--first-color);
   color: #fff;
   text-decoration: none;
 }
@@ -595,7 +590,7 @@ section {
 }
 
 .features .nav-link {
-  border: 1px solid #d4d6df;
+  border: 1px solid #dedfd4;
   padding: 15px;
   transition: 0.3s;
   color: #2a2c39;
@@ -617,13 +612,13 @@ section {
 }
 
 .features .nav-link:hover {
-  color: #ef6603;
+  color: var(--first-color);
 }
 
 .features .nav-link.active {
-  background: #ef6603;
+  background: var(--first-color);
   color: #fff;
-  border-color: #ef6603;
+  border-color: var(--first-color);
 }
 
 @media (max-width: 768px) {
@@ -665,7 +660,7 @@ section {
 .features .tab-pane ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #ef6603;
+  color: var(--first-color);
 }
 
 .features .tab-pane p:last-child {
@@ -702,12 +697,12 @@ section {
   transition: 0.5s;
   margin: 10px;
   color: #fff;
-  background: #ef6603;
+  background: var(--first-color);
 }
 
 .cta .cta-btn:hover {
   background: #fff;
-  color: #ef6603;
+  color: var(--first-color);
 }
 
 @media (max-width: 1024px) {
@@ -769,7 +764,7 @@ section {
 }
 
 .services .title a:hover {
-  color: #ef6603;
+  color: var(--first-color);
 }
 
 .services .description {
@@ -819,12 +814,12 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #ef6603;
+  color: var(--first-color);
 }
 
 .portfolio #portfolio-flters li.filter-active::before,
 .portfolio #portfolio-flters li.filter-active::after {
-  color: #ef6603;
+  color: var(--first-color);
 }
 
 .portfolio .portfolio-item {
@@ -935,11 +930,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #ef6603;
+  border: 1px solid var(--first-color);
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #ef6603;
+  background-color: var(--first-color);
 }
 
 .portfolio-details .portfolio-info {
@@ -1050,11 +1045,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #ef6603;
+  border: 1px solid var(--first-color);
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #ef6603;
+  background-color: var(--first-color);
 }
 
 /*--------------------------------------------------------------
@@ -1082,7 +1077,7 @@ section {
 
 .pricing h4 {
   font-size: 36px;
-  color: #ef6603;
+  color: var(--first-color);
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   margin-bottom: 20px;
@@ -1114,7 +1109,7 @@ section {
 }
 
 .pricing ul i {
-  color: #ef6603;
+  color: var(--first-color);
   font-size: 18px;
   padding-right: 4px;
 }
@@ -1132,7 +1127,7 @@ section {
 }
 
 .pricing .btn-buy {
-  background: #ef6603;
+  background: var(--first-color);
   display: inline-block;
   padding: 8px 35px 10px 35px;
   border-radius: 50px;
@@ -1150,12 +1145,12 @@ section {
 }
 
 .pricing .featured {
-  border: 2px solid #ef6603;
+  border: 2px solid var(--first-color);
 }
 
 .pricing .featured h3 {
   color: #fff;
-  background: #ef6603;
+  background: var(--first-color);
 }
 
 .pricing .advanced {
@@ -1167,7 +1162,7 @@ section {
   z-index: 1;
   font-size: 14px;
   padding: 1px 0 3px 0;
-  background: #ef6603;
+  background: var(--first-color);
   color: #fff;
 }
 
@@ -1192,7 +1187,7 @@ section {
 .faq .faq-list .question {
   display: block;
   position: relative;
-  font-family: #ef6603;
+  font-family: var(--first-color);
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;
@@ -1223,7 +1218,7 @@ section {
 }
 
 .faq .faq-list .collapsed:hover {
-  color: #ef6603;
+  color: var(--first-color);
 }
 
 .faq .faq-list .collapsed .icon-show {
@@ -1332,7 +1327,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #ef6603;
+  color: var(--first-color);
   float: left;
   width: 44px;
   height: 44px;
@@ -1367,7 +1362,7 @@ section {
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #ef6603;
+  background: var(--first-color);
   color: #fff;
 }
 
@@ -1437,7 +1432,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #ef6603;
+  background: var(--first-color);
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1550,7 +1545,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #ef6603;
+  background: var(--first-color);
   color: #fff;
   line-height: 1;
   padding: 8px 0;
