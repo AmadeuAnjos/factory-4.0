@@ -50,9 +50,14 @@ h6 {
   line-height: 0;
 }
 
+.back-to-top i:hover {
+  color: var(--first-color);
+}
+
 .back-to-top:hover {
-  background: #fc7c1f;
-  color: #fff;
+  background: white;
+  color: var(--first-color);
+  border: 1px solid var(--first-color);
 }
 
 .back-to-top.active {
@@ -860,7 +865,7 @@ section {
 }
 
 .portfolio .portfolio-item .portfolio-info p {
-  color: #fedac0;
+  color: #9ab2ff;
   font-size: 14px;
   margin-bottom: 0;
 }
@@ -1018,7 +1023,7 @@ section {
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-  color: #fedac0;
+  color: #9ab2ff;
   font-size: 26px;
 }
 
@@ -1198,7 +1203,7 @@ section {
   font-weight: 400;
   padding-left: 25px;
   cursor: pointer;
-  color: #bd5102;
+  color: var(--first-color);
   transition: 0.3s;
 }
 
@@ -1438,7 +1443,7 @@ section {
 
 .contact .php-email-form button[type=submit] {
   background: var(--first-color);
-  border: 0;
+  border: 1px solid var(--first-color);
   padding: 10px 24px;
   color: #fff;
   transition: 0.4s;
@@ -1446,7 +1451,9 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #fc8129;
+  background: white;
+  color: var(--first-color);
+  border: 1px solid var(--first-color);
 }
 
 @keyframes animate-loading {
@@ -1563,8 +1570,8 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #bd5102;
-  color: #fff;
+  background: white;
+  color: var(--first-color);
   text-decoration: none;
 }
 
