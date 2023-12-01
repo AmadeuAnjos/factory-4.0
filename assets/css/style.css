@@ -622,6 +622,10 @@ section {
   border-color: var(--first-color);
 }
 
+.two {
+  margin-top: 12px;
+}
+
 @media (max-width: 768px) {
   .features .nav-link i {
     padding: 0;
