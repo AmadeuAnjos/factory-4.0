@@ -3,6 +3,10 @@
   --sec-color: #464646;
 }
 
+.text-justify  { 
+  text-align: justify !important; 
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: var(--sec-color);
@@ -877,7 +881,7 @@ section {
 .portfolio .portfolio-item .portfolio-info .preview-link,
 .portfolio .portfolio-item .portfolio-info .details-link {
   position: absolute;
-  right: 40px;
+  right: 15px;
   font-size: 24px;
   top: calc(50% - 18px);
   color: #fff;
@@ -886,7 +890,7 @@ section {
 
 .portfolio .portfolio-item .portfolio-info .preview-link:hover,
 .portfolio .portfolio-item .portfolio-info .details-link:hover {
-  color: #fd9f5b;
+  color: var(--first-color);
 }
 
 .portfolio .portfolio-item .portfolio-info .details-link {
@@ -912,7 +916,7 @@ section {
 }
 
 .portfolio .portfolio-item .portfolio-links a:hover {
-  color: #fd9f5b;
+  color: var(--first-color);
 }
 
 .portfolio .portfolio-item:hover .portfolio-img img {
@@ -1584,5 +1588,5 @@ section {
 }
 
 #footer .credits {
-  font-size: 13px;
+  font-size: 15px;
 }
