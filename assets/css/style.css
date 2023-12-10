@@ -225,6 +225,12 @@ h6 {
   visibility: visible;
 }
 
+.gtranslate_wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+
 @media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
     left: -90%;
