@@ -1,5 +1,5 @@
 # Page Suvires Automação Industrial
-![image](https://github.com/AmadeuAnjos/factory-4.0/assets/53497771/a77a5652-5bfb-40c5-b1f7-c4d6eb07f898)
+![image](https://github.com/AmadeuAnjos/factory-4.0/assets/53497771/cc65fd7e-5747-4f19-b778-ad49df886f98)
 
 ## Page
 https://amadeuanjos.github.io/factory-4.0/
@@ -20,6 +20,9 @@ Suvires Automação Industrial was created to meet the growing demand for qualif
 - [X] Criar Contato.
 - [X] Criar rodapé.
 - [X] Criar logomarca.
+- [X] Criar página em inglês.
+- [X] Criar página em alemão.
+- [X] Criar página em espanhol.
 
 ## Objectives
 - [X] Create menu.
@@ -31,3 +34,6 @@ Suvires Automação Industrial was created to meet the growing demand for qualif
 - [X] Create Contact.
 - [X] Create footer.
 - [X] Create logo.
+- [X] Create page in English.
+- [X] Create page in German.
+- [X] Create page in Spanish.
