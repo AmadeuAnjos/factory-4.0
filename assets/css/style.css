@@ -230,6 +230,12 @@ h6 {
   flex-direction: row;
 }
 
+.gtranslate_wrapper img {
+  margin-right: -50px !important;
+}
+.gtranslate_wrapper a:hover {
+  background: none;
+}
 
 @media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
@@ -600,6 +606,18 @@ section {
   background: var(--first-color);
   color: #fff;
   text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  #subtitle {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 575px) {
+  #subtitle {
+    font-size: 22px;
+  }
 }
 
 /*--------------------------------------------------------------
